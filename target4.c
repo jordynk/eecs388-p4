@@ -34,7 +34,6 @@ void read_file(char *name)
         fprintf(stderr, "Error: Cannot allocate a buffer\n");
         return;
     }
-
     read_elements(f, buf, count);
 }
 
